@@ -1,0 +1,7 @@
+server:
+  port: 8082
+girl:
+  name: anna
+  age: 17
+  cupSize: D
+

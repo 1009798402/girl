@@ -1,0 +1,7 @@
+server:
+  port: 8081
+girl:
+  name: lily
+  age: 20
+  cupSize: F
+

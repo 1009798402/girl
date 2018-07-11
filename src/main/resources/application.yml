@@ -1,0 +1,15 @@
+#dev生产环境
+spring:
+  profiles:
+    active: prod
+#配置数据库连接
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/dbgirl
+    driver-class-name: com.mysql.jdbc.Driver
+#配置jpa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
